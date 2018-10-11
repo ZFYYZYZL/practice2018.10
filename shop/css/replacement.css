@@ -1,0 +1,103 @@
+/** 清除内外边距 **/
+html,body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li, 
+pre,
+form, fieldset, legend, button, input, textarea, 
+th, td，tr{
+    margin: 0;
+    padding: 0;
+}
+/** 设置默认字体 **/
+html,body,
+button, input, select, textarea /* for ie */ {
+    font: 14px/1.5 tahoma, \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal;}
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读, 让 small 正常化 */
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+/** 重置文本格式元素 **/
+a { text-decoration: none; }
+sup { vertical-align: text-top; } /* 重置, 减少对行高的影响 */
+sub { vertical-align: text-bottom; }
+/** 重置表单元素 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+/* 注：optgroup 无法扶正 */
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+/* 重置 HTML5 元素 */
+article, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section,
+summary, time, mark, audio, video {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+/*避免超链接内图片边框*/
+img{
+	border:0;
+}
+iframe,div{
+	 width:100%; 
+	}
+.top2{
+	width:991px;
+	height:78px;
+}
+.top2{
+	margin:0 auto;
+}
+.top2 li{
+	float:left;
+		height:78px;
+}
+.top2 .li1{
+	padding:0 25px;
+	
+}
+.top2 li a{
+	line-height:78px;
+	font-size:18px;
+	height:78px;
+	color:black;
+	float:left;
+	font-weight: bold;
+}
+.top2 li a:hover{
+	padding-top:4px;
+	height:70px;
+	line-height: 70px;
+	border-bottom: 4px solid red;
+}
+.top2 .li2{
+	padding:0 13px;
+}
+.top2 .li3{
+	padding-left:25px;
+	padding-right: 20px;
+}
+.top2 .li3 img{
+	position: relative;
+	left:-10px;
+	top:8px;
+}
+
+
+.header,iframe{
+	height:129px;
+}
+.nav{
+	width:100%;
+	background: url(../images/bg.png) repeat-x top #fae8c8;
+	
+}
+.footer{
+	height:467px;
+	width: 100%;
+}
+.footer .foot{
+	height:467px;
+}
